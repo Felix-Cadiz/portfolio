@@ -1,9 +1,12 @@
 import React from "react";
+import "./Welcome.css";
 
 const Welcome = () => {
 
     return <>
-    Welcome Section
+        <div className="welcomeContainer">
+            Welcome Section
+        </div>
     </>
 }
 
