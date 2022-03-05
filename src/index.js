@@ -12,7 +12,6 @@ import {
 const App = () => {
     
     return <>
-    <h1> Felix Cadiz </h1>
     <nav>
         <Router>
             <Navbar />

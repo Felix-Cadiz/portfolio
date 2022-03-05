@@ -5,7 +5,8 @@ const Welcome = () => {
 
     return <>
         <div className="welcomeContainer">
-            Welcome Section
+            <h1>Felix Cadiz</h1>
+            <h3>Full Stack Software Engineer</h3>
         </div>
     </>
 }

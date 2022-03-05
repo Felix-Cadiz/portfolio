@@ -6,7 +6,10 @@ const Navbar = () => {
 
     return <>
         <div className="navbarContainer">
-            Anchorlinks to Home, About, Projects, and Contact will be displayed
+            Felix Cadiz
+            <AnchorLink href="#aboutAnchor">About</AnchorLink>
+            <AnchorLink href="#projectsAnchor">Projects</AnchorLink>
+            <AnchorLink href="#contactAnchor">Contact</AnchorLink>
         </div>
     </>
 }
