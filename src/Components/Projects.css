@@ -4,3 +4,13 @@
     background-color: #DDD;
     padding: 3vh;
 }
+
+.projectLink {
+    border: 1px solid black;
+    padding: 5px;
+    margin: 20px;
+}
+
+.projectCard{
+    padding: 3vh;
+}
