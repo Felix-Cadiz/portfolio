@@ -1,4 +1,25 @@
 .navbarContainer {
-    background-color: #DDD;
+    background-color: #000;
     padding: 3vh;
+    color: white;
+    display: grid;
+    grid-template-columns: 8fr 1fr 1fr 1fr;
+    align-items: center;
+}
+
+.navbarName {
+    font-size: 2rem;
+    padding-left: 2%;
+}
+
+.navbarContainer > *:not(:first-child) {
+    margin: 4%;
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    width: 40%;
+}
+
+.navbarContainer > *:not(:first-child):hover {
+    border-bottom: 3px solid white;
 }

@@ -1,6 +1,5 @@
 .projectsContainer {
     height: 50vh;
-    text-align: center;
     background-color: #DDD;
     padding: 3vh;
 }
@@ -12,5 +11,8 @@
 }
 
 .projectCard{
+    text-align: center;
+    margin-top: 2vh;
+    border: 1px solid black;
     padding: 3vh;
 }

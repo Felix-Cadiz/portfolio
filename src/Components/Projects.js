@@ -4,7 +4,7 @@ import "./Projects.css"
 const About = () => {
 
     return <>
-        <div id="projectsAnchor" className="projectsContainer">
+        <div id="projectsAnchor" className="projectsContainer container">
             Hello Projects
             <div className="pokedex projectCard"> 
                 <h3> Pokedex </h3>
