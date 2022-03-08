@@ -12,13 +12,11 @@ import {
 const App = () => {
     
     return <>
-    <nav>
         <Router>
             <Navbar />
             <Landing />
             <Footer />
         </Router>
-    </nav>
     </>
 }
 

@@ -3,3 +3,8 @@
     padding: 3vh;
     background-color: #FFF;
 }
+
+.twoStories {
+    display: flex;
+    padding: 5%;
+}
