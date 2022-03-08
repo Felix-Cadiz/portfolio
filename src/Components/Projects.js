@@ -5,11 +5,12 @@ const About = () => {
 
     return <>
         <div id="projectsAnchor" className="projectsContainer container">
-            Hello Projects
             <div className="pokedex projectCard"> 
                 <h3> Pokedex </h3>
+                <div> Place for image </div>
                 <a className="projectLink" href="https://practical-ardinghelli-a24fb5.netlify.app/" target="_blank">Deploy</a>
                 <a className="projectLink" href="https://github.com/Felix-Cadiz/Pokemon_Generator" target="_blank">Repository</a>
+                <div> Short description on hover </div>
             </div>
             <div className="porto3000 projectCard"> 
                 <h3> Porto 3000 </h3>

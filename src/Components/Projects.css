@@ -1,4 +1,8 @@
 .projectsContainer {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 5vw;
     height: 50vh;
     background-color: #DDD;
     padding: 3vh;
@@ -15,4 +19,8 @@
     margin-top: 2vh;
     border: 1px solid black;
     padding: 3vh;
+}
+
+.projectCard:hover {
+    background-color: red;
 }

@@ -2,5 +2,16 @@
     min-height: 50vh;
     padding: 3vh;
     background-color: #67E0CB;
+    display: flex;
+    gap: 5vh;
 }
+
+/* .custom-shape-divider-bottom-1646698455 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+} */
 
