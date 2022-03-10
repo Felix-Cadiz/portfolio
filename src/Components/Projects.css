@@ -3,45 +3,72 @@
     flex-direction: row;
     flex-wrap: wrap;
     gap: 5vw;
-    height: 70vh;
+    height: auto;
     background-color: #DDD;
-    padding: 3vh;
-    margin-bottom: 40vh;
+    padding: 10vh 0;
 }
 
 .projectLink {
     border: 1px solid black;
     padding: 5px;
     margin: 20px;
+    box-shadow: 0px 3px 3px black;
 }
 
 .projectCard{
     text-align: center;
     border: 1px solid black;
     box-shadow: 0px 3px 3px black;
-    /* padding: 3vh; */
     height: 300px;
     width: 400px;
     transition: all 1s ease-in-out;
     display: flex;
     flex-direction: column;
     overflow: hidden;
+    background-color: black;
+    color: white;
 }
 
-.pokedex {
+.projectCard > * {
+    height: 100%; 
     width: 100%;
-    height: 100%;
-    background: url("/public/images/Pokedex.jpeg") no-repeat;
-    background-position: right;
-    background-size: cover;
     transition: all 0.5s;
 }
 
+.projectDescription {
+    color:white;
+    position: absolute;
+    line-height: 10vh;
+    height: 100%;
+    width: 100%;
+    display: none;
+}
+
+.pokedex {
+    background: url("/public/images/Pokedex.jpeg") no-repeat;
+    background-position: right;
+    background-size: cover;
+}
+
 .porto3000 {
+    background-color: black;
     background: url("/public/images/porto3000.png") no-repeat;
     background-size: 100% 100%;
 }
 
-.projectCard:hover .pokedex{
-    transform: scale(1.1);
+.projectCard:hover {
+    color: transparent;
+    transition: all 0s;
+} 
+
+.projectCard:hover > * {
+    transform: scale(1.2);
+    opacity: 0.5;
+}
+
+.projectCard:hover .projectDescription{
+    display: block;
+    word-break: break-all;
+    opacity: 1;
+    align-content: center;
 }
