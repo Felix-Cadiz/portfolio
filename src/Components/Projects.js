@@ -4,10 +4,9 @@ import "./Projects.css"
 const About = () => {
 
     return <>
+    <h1 id="projectsAnchor"> Recent Projects </h1>
         <div className="projectsContainer container">
-        <h1 id="projectsAnchor"> Recent Projects </h1>
-        {/* <div className="projectsContainer"></div> */}
-            <div className="projectCard"> Pokedex
+            <div className="projectCard">
                 <div className="pokedex">
                     <div className="projectDescription">
                         <h3> Pokedex </h3>
@@ -17,7 +16,7 @@ const About = () => {
                     </div>
                 </div>
             </div>
-            <div className="projectCard">  Porto 3000
+            <div className="projectCard">
                 <div className="porto3000">
                     <div className="projectDescription">
                         <h3> Porto 3000 </h3>
@@ -27,7 +26,7 @@ const About = () => {
                     </div>
                 </div>
             </div>
-            <div className="projectCard"> Fitness Tracker
+            <div className="projectCard">
                 <div className="fitnessTracker">
                     <div className="projectDescription">
                         <h3> Fitness Tracker</h3>
@@ -37,7 +36,7 @@ const About = () => {
                     </div>
                 </div>
             </div>
-            <div className="portfolio projectCard"> Portfolio
+            <div className="portfolio projectCard">
                 <div className="portfolio">
                     <div className="projectDescription">
                         <h3> Personal Portfolio </h3>

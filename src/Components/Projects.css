@@ -8,6 +8,12 @@
     padding: 10vh 0;
 }
 
+#projectsAnchor {
+    padding-top: 15vh;
+    background-color: #DDD;
+    text-align: center;
+}
+
 .projectLink {
     border: 1px solid black;
     padding: 5px;
@@ -18,7 +24,7 @@
 .projectCard{
     text-align: center;
     border: 1px solid black;
-    box-shadow: 0px 3px 3px black;
+    box-shadow: -8px 8px 18px black;
     height: 300px;
     width: 400px;
     transition: all 1s ease-in-out;
@@ -61,9 +67,10 @@
     transition: all 0s;
 } 
 
-.projectCard:hover > * {
-    transform: scale(1.2);
+.projectCard:hover > *:first-child {
+    transform: scale(1.05);
     opacity: 0.5;
+    filter:blur(2px);
 }
 
 .projectCard:hover .projectDescription{
