@@ -8,3 +8,9 @@
     display: flex;
     padding: 5%;
 }
+
+.music,  .tech{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}

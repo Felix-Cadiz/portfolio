@@ -8,6 +8,12 @@
     gap: 5vh;
 }
 
+.headshot {
+    width: 15vw;
+    border: 1px solid black;
+    border-radius: 50%;
+}
+
 /* .custom-shape-divider-bottom-1646698455 {
     position: absolute;
     bottom: 0;
