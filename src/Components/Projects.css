@@ -42,31 +42,49 @@
 .projectCard > * {
     height: 100%; 
     width: 100%;
-    transition: all 0.5s;
+    transition: all 0.5s ease-in-out;
 }
 
 .projectDescription {
     color:white;
     position: absolute;
-    line-height: 10vh;
     display: block;
     display: none;
 }
 
 .projectCard:hover > *:first-child {
     transform: scale(1.05);
-    opacity: 0.5;
+    opacity: 0.2;
     filter:blur(3px);
 }
 
 .projectCard:hover .projectDescription{
     display: block;
-    word-break: break-all;
-    opacity: 1;
+    line-height: 2.5rem;
     align-content: center;
 }
 
 .projectLink:hover {
     background-color: darkgray;
     color: white
+}
+
+.projectInformation {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    line-height: 1rem;
+    margin-top: 1.5rem;
+}
+
+.projectAbout {
+    width: 55%;
+    padding-right: 2% 0;
+    text-align: center;
+}
+
+.technologies {
+    width: 35%;
+    text-align: left;
+    line-height: 1.5rem;
 }
