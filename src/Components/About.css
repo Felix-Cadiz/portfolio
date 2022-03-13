@@ -4,6 +4,10 @@
     background-color: #FFF;
 }
 
+#aboutAnchor {
+    padding-top: 15vh;
+}
+
 .twoStories {
     display: flex;
     padding: 5%;
