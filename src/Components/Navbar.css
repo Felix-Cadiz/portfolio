@@ -4,9 +4,9 @@
     background-color: #000;
     padding: 2vh;
     color: white;
-    display: grid;
-    grid-template-columns: 8fr 1fr 1fr 1fr;
+    display: flex;
     align-items: center;
+    justify-content: space-between;
     z-index: 1;
 }
 
@@ -17,14 +17,20 @@
     color: white;
 }
 
-.navbarContainer > *:not(:first-child) {
-    margin: 4%;
+nav > * {
     text-decoration: none;
     color: white;
-    text-align: center;
-    width: 70%;
+    margin: 0 2.5vw 0 2.5vw;
 }
 
-.navbarContainer > *:not(:first-child):hover {
+nav > *:hover {
     border-bottom: 3px solid white;
+}
+
+@media only screen and (max-width: 768px) {
+    .navbarContainer {
+        display: flex;
+        flex-direction: column;
+        gap: 2vh;
+    }
 }

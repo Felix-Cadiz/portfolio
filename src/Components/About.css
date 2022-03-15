@@ -8,13 +8,10 @@
     padding-top: 15vh;
 }
 
-.twoStories {
-    display: flex;
-    padding: 5%;
-}
-
-.music,  .tech{
+.story {
     display: flex;
     flex-direction: column;
-    align-items: center;
+    text-align: center;
+    padding: 5%;
+    gap: 5vh;
 }
