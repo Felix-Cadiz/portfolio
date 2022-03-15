@@ -8,7 +8,6 @@ const About = () => {
             <h1> ABOUT ME </h1>
             <div className="twoStories">
                 <div className="tech">
-                    <h3> Full Stack Developer | Music Educator </h3>
                     <p> My name is Felix Cadiz and I am a software engineer with a 
                         background in public school education. </p>
                     <p> A new paragraph to discuss more coding stuff</p>

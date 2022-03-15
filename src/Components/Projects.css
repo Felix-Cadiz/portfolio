@@ -57,7 +57,7 @@
 
 .projectCard:hover > *:nth-child(3) {
     transform: scale(1.05);
-    opacity: 0.2;
+    opacity: 0.1;
     filter:blur(3px);
 }
 
@@ -89,5 +89,5 @@
 .technologies {
     width: 35%;
     text-align: left;
-    line-height: 1.5rem;
+    line-height: 1.2rem;
 }

@@ -1,15 +1,20 @@
 import React from "react";
 import "./Welcome.css";
+import "animate.css";
 
 const Welcome = () => {
 
     return <>
         <div className="welcomeContainer">
-            <img className="headshot" src="images/Headshot.png" />
-            <div className="container">
+            <img className="headshot animate__animated animate__fadeIn" src="images/Headshot.png" />
+            <div className="container generalInfo animate__animated animate__fadeIn ">
                 <h1>Felix Cadiz</h1>
-                <h3>Full Stack Software Engineer</h3>
+                <h3>Full Stack Developer | Music Educator</h3>
                 <h5>"It is what you do with the gift of life that determines who you are." - Mewtwo</h5>
+                <div className="contactLinks">
+                <a href="https://docs.google.com/document/d/1F1DCO8AeXyNYLzw357j-ZwoOSjYeC5B8w3NpLRWwmFo/edit?usp=sharing" target="/blank">Resume</a>
+                    <a href="mailto:name@FelixRCadiz@gmail.com" target="/blank">Email</a>
+                </div>
             </div>
         </div>
         

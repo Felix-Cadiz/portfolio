@@ -1,6 +1,7 @@
 .welcomeContainer {
     min-height: 50vh;
     padding: 3vh;
+    padding-top: 5rem;
     background-color: rgb(103,224,203, 1);
     display: flex;
     align-items: center;
@@ -14,12 +15,26 @@
     border-radius: 50%;
 }
 
-/* .custom-shape-divider-bottom-1646698455 {
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    width: 100%;
-    overflow: hidden;
-    line-height: 0;
-} */
+.contactLinks {
+    display: flex;
+    gap: 5vw;
+}
 
+.contactLinks > * {
+    border: 1px solid black;
+    padding: 0.05rem 1rem;
+    text-decoration: none;
+}
+
+.generalInfo {
+    line-height: 2rem;
+}
+
+.animate__fadeIn {
+    --animate-duration: 2s;
+    --animate-delay: 0.9s;
+}
+
+/* .animate__slideInRight {
+    --animate-duration: 2s;
+} */

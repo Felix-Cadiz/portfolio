@@ -20,7 +20,7 @@ const About = () => {
                             <li> CSS </li>
                             <li> PokeAPI </li>
                         </ul>
-                    <p className="projectAbout"> Learn about the world of Pokemon through this React app.</p>
+                    <p className="projectAbout"> React application that showcases the world of Pokemon </p>
                     </div>
                 </div>  
             </div>
@@ -57,7 +57,7 @@ const About = () => {
                             <li> PostgreSQL </li>
                             <li> Express.js </li>
                         </ul>
-                        <p className="projectAbout"> Fitness application that allows users to create, share, edit, 
+                        <p className="projectAbout"> Application that allows users to create, share, edit, 
                         and assemble their favorite fitness routines and activites.</p>
                     </div>
                 </div>
@@ -73,10 +73,9 @@ const About = () => {
                         <ul className="technologies"> Technologies:
                             <li> Javascript </li>
                             <li> React </li>
-                            <li> REST API </li>
-                            <li> Node.js </li>
+                            <li> CSS </li>
                         </ul>
-                        <p className="projectAbout"> My personal portfolio </p>
+                        <p className="projectAbout"> Responsive personal website.</p>
                     </div>
                 </div>
             </div>
