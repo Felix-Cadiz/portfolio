@@ -39,7 +39,7 @@ const About = () => {
                             <li> Express.js </li>
                             <li> CSS </li>
                         </ul>
-                        <p className="projectAbout"> An ecommerce site that sells wine and cheese. </p>
+                        <p className="projectAbout"> Ecommerce site that sells wine and cheese. </p>
                     </div>
                 </div>
             </div>
