@@ -5,15 +5,15 @@
 }
 
 #aboutAnchor {
-    padding-top: 15vh;
+    padding-top: 200px;
 }
 
 .story {
     display: flex;
     flex-direction: column;
-    text-align: center;
     padding: 5%;
-    gap: 5vh;
+    gap: 20px;
+    width: 80%;
 }
 
 .techContainer {
@@ -26,6 +26,10 @@
 }
 
 @media only screen and (max-width: 768px) {
+    .aboutContainer {
+        margin-top: 200px;
+    }
+
     .techContainer {
         display: flex;
         flex-direction: row;
