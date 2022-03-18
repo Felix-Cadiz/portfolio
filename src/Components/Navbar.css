@@ -15,12 +15,14 @@
     padding-left: 2%;
     text-decoration: none;
     color: white;
+    font-family: 'Fredoka', sans-serif;
 }
 
 nav > * {
     text-decoration: none;
     color: white;
     margin: 0 2.5vw 0 2.5vw;
+    font-family: 'Fredoka', sans-serif;
 }
 
 nav > *:hover {

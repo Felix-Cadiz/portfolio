@@ -9,6 +9,7 @@ const Welcome = () => {
             <img className="headshot animate__animated animate__fadeIn" src="images/Headshot.png" />
             <div className="generalInfo animate__animated animate__fadeIn animate__delay-0.5s">
                 <h1>Felix Cadiz</h1>
+                <h3> Pronouns: He/Him/His </h3>
                 <h3>Full Stack Developer | Music Educator</h3>
                 <h4 className="animate__animated animate__fadeIn animate__delay-1s">"It is what you do with the gift of life that determines who you are." - Mewtwo</h4>
                 <div className="contactLinks animate__animated animate__fadeIn animate__delay-2s">

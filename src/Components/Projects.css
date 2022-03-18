@@ -9,7 +9,7 @@
 }
 
 #projectsAnchor {
-    margin-top: 10vh;
+    margin-top: 20vh;
     padding-top: 15vh;
     background-image: linear-gradient(#FFF, #DDD);
     text-align: center;
@@ -37,7 +37,7 @@
 }
 
 .projectDescription {
-    margin-top: 10vh;
+    margin-top: 75px;
     color:white;
     position: absolute;
     display: none;
@@ -74,4 +74,18 @@
     width: 35%;
     text-align: left;
     line-height: 1.2rem;
+}
+
+@media only screen and (max-width: 400px) {
+    #projectsAnchor {
+        /* background-color: red; */
+        padding-top: 300px;
+    }
+}
+
+@media only screen and (max-height: 600px) {
+    #projectsAnchor {
+        /* background-color: red; */
+        padding-top: 200px;
+    }
 }

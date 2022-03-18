@@ -23,7 +23,14 @@
 
 .tech {
     width: 10vw;
+    transition: 0.5s cubic-bezier(0.215, 0.610, 0.355, 1);
 }
+
+.tech:hover {
+    transform: scale(1.2);
+}
+
+
 
 @media only screen and (max-width: 768px) {
     .aboutContainer {
