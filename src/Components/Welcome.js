@@ -6,7 +6,7 @@ const Welcome = () => {
 
     return <>
         <div id="topAnchor" className="welcomeContainer">
-            <img className="headshot animate__animated animate__fadeIn" src="images/Headshot.png" />
+            <img className="headshot animate__animated animate__fadeIn" src="images/Headshot.jpeg" />
             <div className="generalInfo animate__animated animate__fadeIn animate__delay-0.5s">
                 <h1>Felix Cadiz</h1>
                 <h3> Pronouns: He/Him/His </h3>

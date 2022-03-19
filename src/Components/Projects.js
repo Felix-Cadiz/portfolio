@@ -1,7 +1,7 @@
 import React from "react";
 import "./Projects.css"
 
-const About = () => {
+const Projects = () => {
 
     return <>
     <h1 id="projectsAnchor"> Recent Projects </h1>
@@ -83,4 +83,4 @@ const About = () => {
     </>
 }
 
-export default About;
+export default Projects;
