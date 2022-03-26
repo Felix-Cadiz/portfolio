@@ -1,8 +1,9 @@
 .welcomeContainer {
-    min-height: 50vh;
+    min-height: 100vh;
     padding: 3vh;
     padding-top: 6rem;
-    background-color: rgb(103,224,203, 1);
+    background-image: url("/Users/fcadiz/Desktop/personal_projects/portfolio/public/images/Background.png");
+    background-size: cover;
     display: flex;
     align-items: center;
     justify-content: center;
