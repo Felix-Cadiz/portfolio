@@ -27,8 +27,8 @@ const Projects = () => {
                 <p> Febuary 2022 - March 2022</p>
                 <img className="portfolio" src="images/Portfolio.png" alt="portofio" />
                 <div className="projectDescription">
-                    <a className="button" href="google.com" target="_blank">Deploy</a>
-                    <a className="button" href="google.com" target="_blank">Repository</a>
+                    <a className="button" href="felixcadiz.com" target="_blank">Deploy</a>
+                    <a className="button" href="https://github.com/Felix-Cadiz/portfolio" target="_blank">Repository</a>
                     <div className="projectInformation">
                         <ul className="technologies"> Technologies:
                             <li> Javascript </li>
@@ -62,6 +62,7 @@ const Projects = () => {
                 <p> January 2022 - Febuary 2022 </p>
                 <img className="porto3000" src="images/porto3000.png" alt="Porto 3000"/>
                 <div className="projectDescription">
+                    <a className="button" href="https://youtu.be/KMA3AOkHswI" target="_blank">Video</a>
                     <a className="button" href="http://porto3000.herokuapp.com/" target="_blank">Deploy</a>
                     <a className="button" href="https://github.com/hoguer/porto3000" target="_blank">Repository</a>
                     <div className="projectInformation">
